@@ -6,6 +6,7 @@ Thanks for the clarification! Since you’ve been using Python and DBT for six m
 Here’s a tailored plan that assumes you are already comfortable with the basics:
 
 Month 1-3 Plan: Advanced Python, DBT, and Snowflake Projects
+
 Week 1-2: Advanced Python for Data Engineering
 
 1. Advanced Python Topics
