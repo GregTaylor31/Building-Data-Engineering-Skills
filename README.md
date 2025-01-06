@@ -22,6 +22,7 @@ Project:
 
 API-based ETL Pipeline: Write a Python script that pulls data from a public API (e.g., weather data, financial data, etc.), transforms it, and stores it in a Snowflake database.
 Example: Pull historical weather data from an API, clean the data, and load it into a Snowflake table for further analysis. Incorporate error handling, logging, and process concurrency if needed.
+
 Week 3-4: Advanced DBT Techniques
 
 2. Advanced DBT for Transformations
@@ -40,6 +41,7 @@ Example:
 Create a snapshot for tracking customer status over time.
 Build an incremental model to process daily orders only, ensuring you don’t reprocess the entire dataset.
 Write custom tests for data integrity, such as checking for missing values or unexpected duplicates in critical fields.
+
 Week 5-6: Snowflake Performance Optimization
 
 3. Snowflake Query Optimization and Best Practices
@@ -59,6 +61,7 @@ Load a large dataset of sales transactions.
 Set up a Snowflake schema with appropriate clustering keys.
 Analyze query performance before and after optimization (using query profiling).
 Implement materialized views where applicable to speed up reporting queries.
+
 Week 7-8: Airflow for Orchestration and Automation
 
 4. Data Orchestration with Airflow
@@ -77,6 +80,7 @@ Example:
 Extract data from a web API, clean it with Python, and load it into Snowflake.
 Use Airflow to schedule the ETL pipeline to run daily, and trigger the DBT models for transformation.
 Implement retries and notifications for task failures.
+
 Week 9-10: Real-Time Data Pipeline with Kafka or AWS Kinesis
 
 5. Real-Time Data Processing
@@ -94,6 +98,7 @@ Example:
 Set up a Kafka producer that simulates real-time sales data.
 Use Kafka consumers to capture and process that data, applying transformations in DBT.
 Create a dashboard (e.g., using Power BI or Tableau) that reflects real-time sales metrics.
+
 Week 11-12: Final Project & Documentation
 
 6. Final End-to-End Project
@@ -117,6 +122,7 @@ Example:
 Create a pipeline that handles raw sales transactions, aggregates them by region and product, and loads them into Snowflake.
 Use Airflow to orchestrate the pipeline, with daily runs and error-handling features.
 Include a dashboard that reflects real-time sales and inventory data using Snowflake as the backend.
+
 Learning Outcomes for Month 1-3:
 Master advanced Python features and error handling for robust data processing.
 Learn DBT’s advanced transformation techniques, including incremental models and snapshots.
